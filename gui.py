@@ -3,7 +3,7 @@ import webbrowser
 
 # Create the main window
 window = tk.Tk()
-window.title("Minha interface")
+window.title("????????????????????????????????????")
 window.geometry("900x600")
 window.configure(bg='black')
 
@@ -12,7 +12,7 @@ def open_url():
     webbrowser.open("https://www.youtube.com/watch?v=OzBPyATdG-c&list=PLnh-TZzbBdaAMOm7sexgpBr01u3uFnjmA&index=4")
     
 # Create a label and a button
-label = tk.Label(window, text="Bem vindo..!", bg='black')
+label = tk.Label(window, text="???????????????", bg='black')
 label.configure(fg='red', font=('Inter', 20))
 
 button = tk.Button(window, text="????????????", command=open_url)
